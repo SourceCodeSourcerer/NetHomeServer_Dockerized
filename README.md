@@ -44,6 +44,8 @@ Enter the following:
     nethome@6d5b045f5086:/var/run/nethome$ java -verbose -Djava.library.path=. -jar /opt/nethome/lib/home.jar -l/var/log/nethome $@ /etc/opt/nethome/config.xml
 
 ### Access NetHomeServer from your local machine
+As we started NetHomeServer from the commandline, you will have to start another docker shell so the following command can be run:
+
     $> docker ps
     CONTAINER ID        IMAGE                             COMMAND                  CREATED              STATUS              PORTS                     NAMES
     6d5b045f5086        sourcecodesourcerer/opennethome   "/bin/tini -v -- /usr"   About a minute ago   Up About a minute   0.0.0.0:32768->8020/tcp   condescending_hopper
