@@ -57,7 +57,7 @@ http://192.168.99.100:32768/home
 ```
 And there you have it, your own local dockerized NetHomeServer running.
 
-But we can do better, let's run the container by itself.
+:+1: But we can do better, let's run the container by itself.
 
 # Run your NetHomeServer container by itself
 ```
